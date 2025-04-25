@@ -1,0 +1,224 @@
+/* Font style */
+.open-sans-normal {
+    font-family: 'Open Sans', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: 'wdth' 100;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.section-description{
+    font-size: 18px;
+}
+
+/* Shared style */
+.text-primary {
+    color: #fd6e0a;
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    padding: 18px 35px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+.dark-1 {
+    color: #181818;
+}
+.dark-2 {
+    color: #474747;
+}
+.dark-3 {
+    color: #757575;
+}
+
+/* Nav Styles */
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 230px;
+}
+
+/* Heading style inside nav */
+header nav h3 {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+/* menu item style */
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+header nav ul li a {
+    text-decoration: none;
+}
+
+header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* Banner Design */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 38px 0 230px;
+}
+.banner-content{
+    max-width: 585px;
+}
+.banner-content h3{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-content h1{
+    font-size: 85px;
+    font-weight: 800;
+}
+.banner-content p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.banner img{
+    max-width: 584px;
+}
+
+/* Main Design */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin: 130px 0px;
+}
+
+/* About Design */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+.about-content{
+    border: 1px solid black;
+    background-color: white;
+}
+.about-content h3{
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.about-content p{
+    margin-bottom: 30px;
+}
+.about-content .about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.about-items .about-title{
+    font-size: 20px;
+}
+.about-items .about-description{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* What I do Section Design */
+.skills .skill-detail{
+    padding: 0px 116px;
+    /* text-align: center; */
+    margin: 10px 0px 50px 0px;
+}
+.skills .skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skills-container .skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill .skill-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.skill .skill-description{
+    font-size: 16px;
+}
+
+/* Resume Section Design */
+.resume .section-title{
+    margin-bottom: 113px;
+}
+.resume hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-container .resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.experience .experience-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.experience .experience-subtitle{
+    font-size: 20px;
+    font-weight:400;
+    margin-bottom: 20px;
+}
+.experience .experience-description{
+    font-size: 16px;
+}
+.resume .resume-download{
+    text-align: center;
+    margin-top: 50px;;
+}
+
+/* footer design */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
+}
+.footer-column{
+    width: 50%;
+}
+.footer-column .footer-title{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.footer-column .footer-description{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.footer-column .footer-links a{
+    margin-right: 24px;
+}
+input[type="text"], input[type="email"], textarea{
+    width: 100%;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 24px;
+    padding: 10px 20px;
+    background-color: white;
+    display: block;
+}
